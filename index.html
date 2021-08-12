@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
     <title>To Do List</title>
 </head>
 <body>
     <main>
         <h1>Simple Handmade To-Do App With Vanilla JavaScript</h1>
-        <form action="">
+        <form>
             <input type="text" id="inputText">
-            <input type="button" value="ADD NEW TASK" id="inputButton">
+            <input type="submit" value="ADD NEW TASK" id="inputButton">
         </form>
         <section>
                 <p>Total Task: <span>0</span></p>
                 <p>Completed Tasks :<span>0</span></p>
-                <p>Remainig Tasks: <span>0</span></p>
+                <p>Remaining Tasks: <span>0</span></p>
         </section>
+
+        <section id="todoContainer">
+
+        </section>
+
     </main>
-    <script src="index.js"></script>
 </body>
 </html>
