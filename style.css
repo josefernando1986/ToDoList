@@ -60,11 +60,13 @@ section{
     width: 100%;
     padding: 50px;
     display: flex;
+    justify-content: flex-start;
+    gap: 10px;
     height: 100%;
     background-color: white;
 }
 
-#todo{
+.todo{
     padding-top: 30px;
     width: 200px;
     height: 200px;
