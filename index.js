@@ -25,7 +25,7 @@ button.addEventListener('click', (e)=>{
     //Imprimir una tarjeta con la tarea
     const article =`
         <article class="todo">
-        <span>${todoValue}</span>
+        <span class="cardTitle">${todoValue}</span>
         <br>
         <label for="completedTask">Completed</label>
         <input type="radio" name="${todoValue}">
@@ -36,6 +36,7 @@ button.addEventListener('click', (e)=>{
 `
     pintar(article)
     totalTask.innerText = total;
+    todoValue.value = '';
     console.log(total)
 })
 
