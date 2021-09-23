@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.delete{
+    display: none;
+}
+
 main{
     display: flex;
     flex-direction: column;
