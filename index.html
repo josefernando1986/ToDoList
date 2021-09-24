@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script defer src="index.js"></script>
     <title>To Do List</title>
 </head>
@@ -22,12 +23,12 @@
         </section>
 
         <section id="todoContainer">
-        
+            
         </section>
         <template id="template">
-            <article id="container">
-                <h2>Tarea</h2>
-                <input type="button" class="checked" id="checked" value="Completada">
+            <article id="container" class="todo">
+                <h2 class="cardTitle">Tarea</h2>
+                <input type="button" class="checked btn btn-light" id="checked" value="Completada">
                 <!-- <input type="radio" name="checked" id="remaning">Pendiente -->
             </article>
         </template>

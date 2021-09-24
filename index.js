@@ -20,7 +20,7 @@ inputButton.addEventListener('click', e => {
     remainingTasks.textContent = contadorRemaining;
     totalTasks.textContent = contadorTotal;
 
-    template.querySelector('h2').textContent = inputText.value;
+    template.querySelector('h2').textContent = inputText.value
     template.querySelector('.checked').setAttribute('id', inputText.value)
     const clone = template.cloneNode(true)
     fragment.appendChild(clone)
